@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonHal nuget lib tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyWithJsonHal", "NancyWithJsonHal\NancyWithJsonHal.csproj", "{887A8565-4A10-44C8-82EF-F2F2D1D2BFBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlFileReadingAndWriting", "XmlFileReadingAndWriting\XmlFileReadingAndWriting.csproj", "{835E05AA-1486-4DE4-855C-2CF968F47FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDiscoveryTests", "ServiceDiscoveryTests\ServiceDiscoveryTests.csproj", "{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{887A8565-4A10-44C8-82EF-F2F2D1D2BFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{887A8565-4A10-44C8-82EF-F2F2D1D2BFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{887A8565-4A10-44C8-82EF-F2F2D1D2BFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835E05AA-1486-4DE4-855C-2CF968F47FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835E05AA-1486-4DE4-855C-2CF968F47FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835E05AA-1486-4DE4-855C-2CF968F47FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835E05AA-1486-4DE4-855C-2CF968F47FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

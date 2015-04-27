@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LanguageLocaleMappings" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="SuppoertedLocals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Locale" nillable="true" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simpleContent msdata:ColumnName="Locale_Text" msdata:Ordinal="0">
+              <xs:extension base="xs:string">
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LanguageLocaleMappings" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="SuppoertedLocals" />
+        <xs:element name="LanguageLocaleMapping">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DefaultLocale" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element ref="SuppoertedLocals" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="iso639-1LanguageCode" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LanguageLocalMapping">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DefaultLocale" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element ref="SuppoertedLocals" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="iso639-1LanguageCode" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

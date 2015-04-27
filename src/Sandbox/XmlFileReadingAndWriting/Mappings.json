@@ -1,0 +1,21 @@
+﻿{
+    "languageLocaleMappings": [
+        {
+            "iso639-1LanguageCode": "en",
+            "defaultLocale": "en-GB",
+            "supportedLocales": [
+                { "locale": "en-GB" },
+                { "locale": "en-US" },
+                { "locale": "en-CA" }
+            ]
+        },
+        {
+            "iso639-1LanguageCode": "fr",
+            "defaultLocale": "fr-FR",
+            "supportedLocales": [
+                { "locale": "fr-FR" },
+                { "locale": "fr-CA" }
+            ]
+        }
+    ]
+}

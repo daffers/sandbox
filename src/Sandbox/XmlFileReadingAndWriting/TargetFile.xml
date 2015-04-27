@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageLocaleMappings>
+  <LanguageLocaleMapping iso639-1LanguageCode="en">
+    <DefaultLocale>en-GB</DefaultLocale>
+    <SupportedLocals>
+      <Locale>en-GB</Locale>
+      <Locale>en-US</Locale>
+      <Locale>en-CA</Locale>
+    </SupportedLocals>
+  </LanguageLocaleMapping>
+  <LanguageLocaleMapping iso639-1LanguageCode="fr">
+    <DefaultLocale>fr-FR</DefaultLocale>
+    <SupportedLocals>
+      <Locale>fr-FR</Locale>
+      <Locale>fr-CA</Locale>
+    </SupportedLocals>
+  </LanguageLocaleMapping>
+</LanguageLocaleMappings>
