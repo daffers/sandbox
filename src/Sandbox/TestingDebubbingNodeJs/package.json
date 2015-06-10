@@ -1,0 +1,15 @@
+{
+  "name": "TestingDebubbingNodeJs",
+  "version": "0.0.0",
+  "description": "TestingDebubbingNodeJs",
+  "main": "app.js",
+  "author": {
+    "name": "dafyd_000",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "DependencyInjectionTests",
+  "version": "0.0.0",
+  "description": "DependencyInjectionTests",
+  "main": "server.js",
+  "author": {
+    "name": "Dafydd Giddins",
+    "email": "dafydd.giddins@live.co.uk"
+  }
+}
