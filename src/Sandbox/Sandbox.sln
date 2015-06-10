@@ -17,7 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlFileReadingAndWriting", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDiscoveryTests", "ServiceDiscoveryTests\ServiceDiscoveryTests.csproj", "{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}"
 EndProject
+<<<<<<< HEAD
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TestingDebubbingNodeJs", "TestingDebubbingNodeJs\TestingDebubbingNodeJs.njsproj", "{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}"
+=======
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TddPractieWithNodeJs", "TddPractieWithNodeJs\TddPractieWithNodeJs.njsproj", "{19A5DB58-0663-437C-B24E-E8D956B24603}"
+>>>>>>> origin/master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +53,17 @@ Global
 		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3CB85F7-A09D-4166-A3B6-4F118AB12AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83AAC9F6-1094-40FC-8CE9-2CA0FE8CCBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{19A5DB58-0663-437C-B24E-E8D956B24603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A5DB58-0663-437C-B24E-E8D956B24603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A5DB58-0663-437C-B24E-E8D956B24603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A5DB58-0663-437C-B24E-E8D956B24603}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> origin/master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

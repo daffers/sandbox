@@ -1,0 +1,15 @@
+{
+  "name": "TddPractieWithNodeJs",
+  "version": "0.0.0",
+  "description": "TddPractieWithNodeJs",
+  "main": "app.js",
+  "author": {
+    "name": "dafydd.giddins",
+    "email": ""
+  },
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5",
+    "superagent": "^1.2.0"
+  }
+}
