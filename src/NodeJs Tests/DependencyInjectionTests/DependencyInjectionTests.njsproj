@@ -34,7 +34,7 @@
     <Compile Include="server.js" />
     <Compile Include="Testingmocking.js">
       <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
+      <TestFramework>Mocha</TestFramework>
     </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />

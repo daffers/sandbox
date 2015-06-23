@@ -1,10 +1,7 @@
 ﻿var assert = require('assert');
+var loader = required('TextLoader');
 
 exports['Test 1'] = function (test) {
-    assert.ok(true, "This shouldn't fail");
-}
-
-exports['Test 2'] = function (test) {
-    assert.ok(1 === 1, "This shouldn't fail");
-    assert.ok(false, "This should fail");
+    var text = loader.SayHello();
+    assert.equal("Hello from my injecto", text);
 }
